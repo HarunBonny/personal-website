@@ -1,0 +1,61 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+    
+}
+.secDiv {
+    width: 40%;
+    float: left;
+}
+.secDiv img {
+    width: 100%;
+    text-align: left;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+
+.secAll{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.secDiv.text{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+.pink-highlight {
+    color: #ff4081;
+}.secDiv.img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+.pink-highlight:hover {
+    color: #ff80ab;
+    font-size: 50px;
+}
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #ff4081, #ff80ab);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.secAll.topSection {
+    background-image: url(Images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+    
